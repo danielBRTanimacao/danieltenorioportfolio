@@ -1,0 +1,35 @@
+/*Geral*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(228, 228, 228);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Estrutura do container*/
+#container {
+    background: white;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 15px;
+    box-shadow: 5em 1em #1242a7;
+    margin: 50px auto;
+    min-width: 740px;
+	max-width: 100px;
+}
+
+#img-edit-wid img {
+    width: 5%;
+    padding: 5px 5px 25px;
+}
+
+#img-edit-wid img:hover {
+    width: 6%;
+}
+
+#text-edit {
+    padding: 20px;
+}
