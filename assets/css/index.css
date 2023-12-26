@@ -7,6 +7,20 @@
     }
 }
 
+@font-face {
+    font-family: "Anton";
+    src: url("../fonts/Anton-Regular.ttf");
+}
+
 hr {
     margin: 10%;
+}
+
+.about-me {
+    font-family: "Anton";
+}
+
+.bg-darker {
+    /* background-color: #003279; */
+    background-color: #11428b;
 }
