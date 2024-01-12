@@ -17,10 +17,18 @@ hr {
 }
 
 .about-me {
+    height: 100vh;
+}
+
+.display-3 {
     font-family: "Anton";
 }
 
 .bg-darker {
     /* background-color: #003279; */
     background-color: #11428b;
+}
+
+.bg-light-subtle {
+    background: rgba(255, 255, 255, 0.8) !important;
 }
