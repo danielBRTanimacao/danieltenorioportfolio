@@ -1,3 +1,30 @@
+hr {
+    margin: 10%;
+}
+
+.bg-darker {
+    background-color: #005b96;
+}
+
+.animate-img {
+    position: relative;
+    animation-name: img-first;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    transition: all 2s ease-in-out;
+}
+
+@keyframes img-first {
+    from {
+        right: 100px;
+        opacity: 0;
+    }
+    to {
+        right: 0;
+        opacity: 1;
+    }
+}
+
 @media (max-width: 1199.98px) {
     .img-hide {
         display: flex;
@@ -13,22 +40,4 @@
     .center-width {
         text-align: center;
     }
-}
-
-@font-face {
-    font-family: "Anton";
-    src: url("../fonts/Anton-Regular.ttf");
-}
-
-hr {
-    margin: 10%;
-}
-
-.about-me {
-    font-family: "Anton";
-}
-
-.bg-darker {
-    /* background-color: #003279; */
-    background-color: #11428b;
 }
