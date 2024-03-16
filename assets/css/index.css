@@ -6,12 +6,28 @@ hr {
     background-color: #005b96;
 }
 
-.animate-img {
-    position: relative;
-    animation-name: img-first;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    transition: all 2s ease-in-out;
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.showing {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+/* @keyframes h2-animate {
+    from {
+        left: 200px;
+        opacity: 0;
+    }
+    to {
+        left: 0;
+        opacity: 1;
+    }
 }
 
 @keyframes img-first {
@@ -23,7 +39,7 @@ hr {
         right: 0;
         opacity: 1;
     }
-}
+} */
 
 @media (max-width: 1199.98px) {
     .img-hide {
