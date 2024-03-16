@@ -1,9 +1,13 @@
+:root {
+    --darker-blue: #005b96;
+}
+
 hr {
     margin: 10%;
 }
 
 .bg-darker {
-    background-color: #005b96;
+    background-color: var(--darker-blue);
 }
 
 .hidden {
@@ -18,28 +22,6 @@ hr {
     filter: blur(0);
     transform: translateX(0);
 }
-
-/* @keyframes h2-animate {
-    from {
-        left: 200px;
-        opacity: 0;
-    }
-    to {
-        left: 0;
-        opacity: 1;
-    }
-}
-
-@keyframes img-first {
-    from {
-        right: 100px;
-        opacity: 0;
-    }
-    to {
-        right: 0;
-        opacity: 1;
-    }
-} */
 
 @media (max-width: 1199.98px) {
     .img-hide {
