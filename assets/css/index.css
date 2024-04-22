@@ -1,5 +1,7 @@
 :root {
-    --darker-blue: #005b96;
+    /* --darker-blue: #005b96; */
+    --darker-secondary: #282a37;
+    --darker-primary: #121317;
 }
 
 hr {
@@ -7,7 +9,13 @@ hr {
 }
 
 .bg-darker {
-    background-color: var(--darker-blue);
+    background-color: var(--darker-secondary);
+}
+
+.bg-darker-secondary {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--darker-primary);
 }
 
 .hidden {
