@@ -1,12 +1,9 @@
-# danieltenorioportfolio
+# Meu Portfolio :)
 
-## LINK DO SITE
-
-Ainda em desenvolvimento...
+### LINK DO SITE ✨
 
 https://danielbrtanimacao.github.io/danieltenorioportfolio/
 
-### SCREENSHOTS
+### SCREENSHOTS 📷
 
-foto retirada projeto esta sendo refeito
-![foto-projeto](sendofeito)
+![foto-projeto](./img_readme/img-project.png)
