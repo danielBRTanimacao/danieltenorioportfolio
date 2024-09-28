@@ -1,7 +1,18 @@
+import Header from "./components/Header";
+
 export default () => {
     return (
         <>
-            <h1>Texto inicial</h1>
+            <Header />
+            <main className="main">
+                <h1 className="font-principal">
+                    Daniel Tenório{" "}
+                    <span className="text-body-secondary">
+                        Desenvolvedor BackEnd
+                    </span>
+                </h1>
+                <img src="image" alt="my-image" />
+            </main>
         </>
     );
 };
