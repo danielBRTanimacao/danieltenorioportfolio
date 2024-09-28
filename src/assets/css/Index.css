@@ -3,11 +3,30 @@
 :root {
     --font-principal: "Fira Code", monospace;
 
-    --black-onix: #313638;
-    --light-alabaster: #e0dfd5;
-    --flash-lightnes: #e8e9eb;
-    --yellow-earth: #e4b363;
-    --red-bittersweet: #ef6461;
+    --background: #282a36;
+    --current-line: #44475a;
+    --flash-lightnes: #f8f8f2;
+    --green-code: #50fa7b;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--flash-lightnes);
+}
+
+/* HEADER NAV */
+.nav-item {
+    padding: 0 6px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: var(--flash-lightnes) !important;
+}
+
+.nav-item span {
+    color: var(--green-code);
+    font-family: var(--font-principal);
 }
 
 /* INDEX */
