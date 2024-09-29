@@ -35,18 +35,8 @@ body {
 }
 
 /* HEADER NAV */
-.burger-btn {
-    display: none;
-}
-
-@media (max-width: 767.98px) {
-    .burger-btn {
-        display: flex;
-    }
-}
-
-.navbar {
-    justify-content: space-between;
+.navbar-collapse {
+    padding: 10px 0;
 }
 
 .navbar-brand {

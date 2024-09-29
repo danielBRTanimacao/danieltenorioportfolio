@@ -1,47 +1,54 @@
-import { useState } from "react";
-
 export default () => {
-    const [hide, setHide] = useState(false);
-    const burgerChange = () => {
-        setHide((prevHide) => !prevHide);
-    };
     return (
         <>
-            <header className="navbar navbar-expand px-4 pt-3">
-                <a href="/" className="navbar-brand px-3">
-                    D
-                </a>
-                <button onClick={burgerChange} className="burger-btn">
-                    Hide
-                </button>
-                <nav>
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
-                            <a href="#header">
-                                <span>1.</span>
-                                Cabeçalho
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a href="#projects">
-                                <span>2.</span>
-                                Projetos
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a href="#about">
-                                <span>3.</span>
-                                Sobre mim
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a href="#tec">
-                                <span>4.</span>
-                                Tecnologias
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+            <header className="navbar navbar-expand-lg px-3 pt-3">
+                <div className="container-fluid">
+                    <a href="/" className="navbar-brand px-3">
+                        D
+                    </a>
+                    <button
+                        className="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarHeaderContent"
+                        aria-controls="navbarHeaderContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <nav
+                        className="collapse navbar-collapse"
+                        id="navbarHeaderContent"
+                    >
+                        <ul className="navbar-nav ms-auto">
+                            <li className="nav-item">
+                                <a href="#header">
+                                    <span>1.</span>
+                                    Cabeçalho
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a href="#projects">
+                                    <span>2.</span>
+                                    Projetos
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a href="#about">
+                                    <span>3.</span>
+                                    Sobre mim
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a href="#tec">
+                                    <span>4.</span>
+                                    Tecnologias
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </header>
         </>
     );
