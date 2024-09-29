@@ -1,10 +1,19 @@
+import { useState } from "react";
+
 export default () => {
+    const [hide, setHide] = useState(false);
+    const burgerChange = () => {
+        setHide((prevHide) => !prevHide);
+    };
     return (
         <>
             <header className="navbar navbar-expand px-4 pt-3">
                 <a href="/" className="navbar-brand px-3">
                     D
                 </a>
+                <button onClick={burgerChange} className="burger-btn">
+                    Hide
+                </button>
                 <nav>
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">

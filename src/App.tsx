@@ -11,11 +11,11 @@ export default () => {
                 <article className="row">
                     <div className="col-md-7 d-flex align-items-center">
                         <div>
-                            <span className="text-hi font-principal">
+                            <span className="text-hi font-principal user-select-none">
                                 Olá, sou...
                                 <div className="popover-arrow"></div>
                             </span>
-                            <h1 className="display-1">
+                            <h1 className="display-1 user-select-none">
                                 <span className="span-primary">
                                     Daniel Tenório✨{" "}
                                 </span>
