@@ -70,11 +70,51 @@ export default () => {
                     </div>
                 </div>
             </section>
+
             <section className="px-4">
+                <h1 className="display-4">
+                    <span style={{ color: "var(--gr-code)" }}>
+                        Outros Projetos
+                    </span>
+                    <span style={{ color: "var(--code-pink)" }}>()</span>
+                    <span style={{ color: "var(--code-orange)" }}>{"{}"}</span>
+                </h1>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <div className="col">
-                        <div className="card shadow-sm">
-                            Desafio Django RestApi
+                        <div className="card">
+                            <h5 className="text-center">
+                                Desafio{" "}
+                                <span style={{ color: "var(--gr-code)" }}>
+                                    Django
+                                </span>{" "}
+                                RestApi
+                            </h5>
+                            <img
+                                src="https://fakeimg.pl/470x200/"
+                                className="img-fluid"
+                                alt="img-project"
+                            />
+                        </div>
+                        <div className="card-body">
+                            <p className="card-text">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Aspernatur, ratione!
+                            </p>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <h5 className="text-center">
+                                <span style={{ color: "var(--code-pink)" }}>
+                                    QrCode
+                                </span>{" "}
+                                Gerente Ar-condicionado
+                            </h5>
+                            <img
+                                src="https://fakeimg.pl/470x200/"
+                                className="img-fluid"
+                                alt="img-project"
+                            />
                         </div>
                         <div className="card-body">
                             <p className="card-text">
@@ -83,8 +123,18 @@ export default () => {
                         </div>
                     </div>
                     <div className="col">
-                        <div className="card shadow-sm">
-                            QrCode Gerente Ar-condicionado
+                        <div className="card">
+                            <h5 className="text-center">
+                                Urubu do pix{" "}
+                                <span style={{ color: "var(--code-purple)" }}>
+                                    PHP
+                                </span>
+                            </h5>
+                            <img
+                                src="https://fakeimg.pl/470x200/"
+                                className="img-fluid"
+                                alt="img-project"
+                            />
                         </div>
                         <div className="card-body">
                             <p className="card-text">
@@ -93,7 +143,20 @@ export default () => {
                         </div>
                     </div>
                     <div className="col">
-                        <div className="card shadow-sm">Urubu do pix PHP</div>
+                        <div className="card">
+                            <h5 className="text-center">
+                                Desafio{" "}
+                                <span style={{ color: "var(--gr-code)" }}>
+                                    PicPay Django{" "}
+                                </span>
+                                RestAPI
+                            </h5>
+                            <img
+                                src="https://fakeimg.pl/470x200/"
+                                className="img-fluid"
+                                alt="img-project"
+                            />
+                        </div>
                         <div className="card-body">
                             <p className="card-text">
                                 Lorem ipsum dolor sit amet.
@@ -101,8 +164,13 @@ export default () => {
                         </div>
                     </div>
                     <div className="col">
-                        <div className="card shadow-sm">
-                            Desafio PicPay DjangoRest
+                        <div className="card">
+                            <h5 className="text-center">I Projeto faculdade</h5>
+                            <img
+                                src="https://fakeimg.pl/470x200/"
+                                className="img-fluid"
+                                alt="img-project"
+                            />
                         </div>
                         <div className="card-body">
                             <p className="card-text">
@@ -111,15 +179,14 @@ export default () => {
                         </div>
                     </div>
                     <div className="col">
-                        <div className="card shadow-sm">Projeto faculdade</div>
-                        <div className="card-body">
-                            <p className="card-text">
-                                Lorem ipsum dolor sit amet.
-                            </p>
+                        <div className="card">
+                            <h5 className="text-center">Estudos gerais</h5>
+                            <img
+                                src="https://fakeimg.pl/470x200/"
+                                className="img-fluid"
+                                alt="img-project"
+                            />
                         </div>
-                    </div>
-                    <div className="col">
-                        <div className="card shadow-sm">Estudos gerais</div>
                         <div className="card-body">
                             <p className="card-text">
                                 Lorem ipsum dolor sit amet.

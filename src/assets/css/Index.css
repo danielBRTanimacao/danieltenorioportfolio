@@ -115,7 +115,8 @@ body {
     animation: move-up-down 1.5s cubic-bezier(0.42, 0, 0.58, 1) infinite;
 }
 
-.display-1 {
+.display-1,
+.display-4 {
     font-family: var(--font-principal);
 }
 
@@ -129,4 +130,10 @@ body {
 
 .span-third {
     color: var(--code-orange) !important;
+}
+
+/* PROJECT */
+.card {
+    background-color: var(--bg-light);
+    color: var(--flash-light);
 }
