@@ -1,27 +1,97 @@
+import ColProject from "./ColProject";
+
 import Climar from "../assets/svgs/climar.svg";
 import EbookWorld from "../assets/svgs/ebook-response.svg";
+import PmApp from "../assets/svgs/pmapp.svg";
+import Mucambo from "../assets/svgs/mucambo.svg";
 
 import DPicPay from "../assets/imgs/projects/DESAFIO BACKEND DJANGO.png";
 import GProject from "../assets/imgs/projects/PROJETOS GITHUB.png";
 import PSchool from "../assets/imgs/projects/PROJETOS SCHOOL.png";
 import PUrubu from "../assets/imgs/projects/PROJETO URUBU.png";
 import DRest from "../assets/imgs/projects/DESAFIO REST.png";
+import QrProject from "../assets/imgs/projects/QR CODE PROJECT.png";
 
 export default () => {
+    const listImg: string[] = [
+        DRest,
+        QrProject,
+        PUrubu,
+        DPicPay,
+        PSchool,
+        GProject
+    ];
+    const titleList: React.ReactNode[] = [
+        <>
+            Desafio <span style={{ color: "var(--gr-code)" }}>Django</span>{" "}
+            RestApi
+        </>,
+        <>
+            {" "}
+            <span style={{ color: "var(--code-pink)" }}>QrCode</span> Gerente
+            Ar-condicionado
+        </>,
+        <>
+            Urubu do pix{" "}
+            <span style={{ color: "var(--code-purple)" }}>PHP</span>
+        </>,
+        <>
+            Desafio{" "}
+            <span style={{ color: "var(--gr-code)" }}>PicPay Django </span>
+            RestAPI
+        </>,
+        <>I Projeto faculdade</>,
+        <>Estudos gerais</>
+    ];
+    const textList: string[] = [
+        `
+        Desafio para uma empresa utilizando framework
+        django + django rest. o desafio consiste em uma
+        API para gerenciar livros e autores, incluindo
+        autenticação de usuários e funcionalidade de
+        pesquisa...
+        `,
+        "Gerenciamento de ar condicionados de uma empresa local, o site gera um QrCode para os ar-condicionado dos clientes onde é possível escanear ver informações sobre aquele ar especifico pode ser escaneado por qualquer pessoa, mas só e possível ser editado por gerentes específicos feito com django + boostrap",
+        "Projeto urubu do pix feito com o simples html, css, javascript e para backend php...",
+        "PICPAY SIMPLIFICADO com Python e Django Desafio",
+        "O projeto de extensão tem como principal objetivo melhorar a comunidade em que vivemos... Isso significa que, ao desenvolver um projeto de extensão, estamos direcionando nossas habilidades em Análise e Desenvolvimento de Sistemas para criar soluções que beneficiem as pessoas ao nosso redor...um exemplo prático",
+        "Estudos gerais repositorio GitHub"
+    ];
+    const listLinkGit: string[] = [
+        "https://github.com/danielBRTanimacao/desafio-spotter-django-rest",
+        "https://github.com/danielBRTanimacao/qr-code-maker-python",
+        "https://github.com/danielBRTanimacao/urubu-do-pix-php",
+        "https://github.com/danielBRTanimacao/desafio-picpay-django",
+        "https://github.com/danielBRTanimacao/I-projeto-extensao-faculdade",
+        "https://github.com/danielBRTanimacao?tab=repositories"
+    ];
+
     return (
         <>
             <section className="px-4" id="projects">
                 {/* animation left */}
                 <div className="row align-items-center">
                     <div className="col-md-7">
-                        <h1>Climar</h1>
+                        <h1>
+                            Climar eletrica e climatização,{" "}
+                            <span className="text-light-emphasis">
+                                Freelancer
+                            </span>
+                        </h1>
                         <p className="lead">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Repudiandae esse aspernatur aliquid!
-                            Recusandae iusto impedit placeat adipisci velit
-                            pariatur fuga natus minus, reprehenderit accusamus
-                            amet esse nobis veniam quibusdam assumenda.
+                            Este é um e-commerce para uma pequena empresa local
+                            da cidade, focada na venda de materiais relacionados
+                            a elétrica, construção e tecnologia. Ainda não é
+                            possível visualizar uma prévia, mas você pode obter
+                            mais informações clicando em "saiba mais".
                         </p>
+                        <a
+                            href="github.com/danielBRTanimacao"
+                            target="_blank"
+                            className="btn btn-outline-light"
+                        >
+                            Saiba mais
+                        </a>
                     </div>
                     <div className="col-md-5">
                         <img src={Climar} className="img-fluid" alt="img" />
@@ -30,46 +100,106 @@ export default () => {
                 {/* animation right */}
                 <div className="row align-items-center">
                     <div className="col-md-7 order-md-2">
-                        <h1>Mucambo Moto Clube</h1>
+                        <h1>
+                            Mucambo Moto Clube,{" "}
+                            <span className="text-light-emphasis">
+                                Freelancer
+                            </span>
+                        </h1>
                         <p className="lead">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Aperiam iusto tempora facilis laborum eius
-                            voluptas minus ratione dolorem ducimus cumque
-                            corporis libero nisi rem nam facere officia aut,
-                            assumenda provident.
+                            Projeto desenvolvido para um clube de motoqueiros
+                            local uma pagina web desenvolvida com Django +
+                            Boostrap, conheça a história de um grupo de
+                            motoqueiros navegue pela página web para descobrir
+                            mais sobre sua historia e os membros que compõem,
+                            também e possível entrar em contato, basta preencher
+                            o formulário
                         </p>
+                        <a
+                            href="github.com/danielBRTanimacao"
+                            target="_blank"
+                            className="btn btn-outline-light"
+                        >
+                            Saiba mais
+                        </a>
                     </div>
                     <div className="col-md-5 order-md-1">
-                        <img src={Climar} alt="img" className="img-fluid" />
+                        <img src={Mucambo} alt="img" className="img-fluid" />
                     </div>
                 </div>
                 {/* animation left */}
                 <div className="row align-items-center">
                     <div className="col-md-7">
-                        <h1>Percepção Musical</h1>
+                        <h1>
+                            Percepção Musical,{" "}
+                            <span className="text-light-emphasis">
+                                Open Source
+                            </span>
+                        </h1>
                         <p className="lead">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Repudiandae esse aspernatur aliquid!
-                            Recusandae iusto impedit placeat adipisci velit
-                            pariatur fuga natus minus, reprehenderit accusamus
-                            amet esse nobis veniam quibusdam assumenda.
+                            Percepção Musical é um aplicativo em desenvolvimento
+                            utilizando as tecnologias Python, Django RestApi,
+                            HTML, CSS e Typescript.{" "}
+                            <a
+                                href="https://github.com/victorhugorl"
+                                target="_blank"
+                                className="link-special link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                            >
+                                Victor Lima
+                            </a>{" "}
+                            lidera o projeto como principal gerente e
+                            desenvolvedor backend, enquanto eu colaboro
+                            principalmente no desenvolvimento frontend. Para
+                            mais informações, clique em saiba mais.
                         </p>
+                        <a
+                            href="https://github.com/victorhugorl/percepcao_musical_app_web-version"
+                            target="_blank"
+                            className="btn btn-outline-light"
+                        >
+                            Saiba mais
+                        </a>
                     </div>
                     <div className="col-md-5">
-                        <img src={Climar} className="img-fluid" alt="img" />
+                        <img src={PmApp} className="img-fluid" alt="img" />
                     </div>
                 </div>
                 {/* animation right */}
                 <div className="row align-items-center">
                     <div className="col-md-7 order-md-2">
-                        <h1>Ebook World</h1>
+                        <h1>
+                            Ebook World,{" "}
+                            <span className="text-light-emphasis">Estudo</span>
+                        </h1>
                         <p className="lead">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Aperiam iusto tempora facilis laborum eius
-                            voluptas minus ratione dolorem ducimus cumque
-                            corporis libero nisi rem nam facere officia aut,
-                            assumenda provident.
+                            Esse e um projeto inspirado em dois sites{" "}
+                            <a
+                                className="link-special link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                                target="_blank"
+                                href="https://www.skoob.com.br"
+                            >
+                                Skoob
+                            </a>
+                            ,{" "}
+                            <a
+                                className="link-special link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                                target="_blank"
+                                href="https://github.com/victorhugorl/Landin_page_ebook"
+                            >
+                                Landing page
+                            </a>{" "}
+                            em uma versão "simples" apenas estudo usando Django
+                            e python, o site também esta em desenvolvimento, mas
+                            assim como o anterior e possivel ver ele em saiba
+                            mais...
                         </p>
+                        <a
+                            href="https://github.com/danielBRTanimacao/ebook-world-django"
+                            target="_blank"
+                            className="btn btn-outline-light"
+                        >
+                            Saiba mais
+                        </a>
                     </div>
                     <div className="col-md-5 order-md-1">
                         <img src={EbookWorld} alt="img" className="img-fluid" />
@@ -78,7 +208,7 @@ export default () => {
             </section>
 
             <section className="px-4">
-                <h1 className="display-4">
+                <h1 className="display-4 py-5">
                     <span style={{ color: "var(--gr-code)" }}>
                         Outros Projetos
                     </span>
@@ -86,123 +216,15 @@ export default () => {
                     <span style={{ color: "var(--code-orange)" }}>{"{}"}</span>
                 </h1>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <div className="col">
-                        <div className="card">
-                            <h5 className="text-center">
-                                Desafio{" "}
-                                <span style={{ color: "var(--gr-code)" }}>
-                                    Django
-                                </span>{" "}
-                                RestApi
-                            </h5>
-                            <img
-                                src={DRest}
-                                className="img-fluid"
-                                alt="img-project"
-                            />
-                        </div>
-                        <div className="card-body">
-                            <p className="card-text">
-                                Desafio para uma empresa utilizando framework
-                                django + django rest. o desafio consiste em uma
-                                API para gerenciar livros e autores, incluindo
-                                autenticação de usuários e funcionalidade de
-                                pesquisa...
-                            </p>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <h5 className="text-center">
-                                <span style={{ color: "var(--code-pink)" }}>
-                                    QrCode
-                                </span>{" "}
-                                Gerente Ar-condicionado
-                            </h5>
-                            <img
-                                src="https://fakeimg.pl/470x200/"
-                                className="img-fluid"
-                                alt="img-project"
-                            />
-                        </div>
-                        <div className="card-body">
-                            <p className="card-text">
-                                Lorem ipsum dolor sit amet.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <h5 className="text-center">
-                                Urubu do pix{" "}
-                                <span style={{ color: "var(--code-purple)" }}>
-                                    PHP
-                                </span>
-                            </h5>
-                            <img
-                                src={PUrubu}
-                                className="img-fluid"
-                                alt="img-project"
-                            />
-                        </div>
-                        <div className="card-body">
-                            <p className="card-text">
-                                projeto urubu do pix feito com o simples html,
-                                css, javascript e para backend php...
-                            </p>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <h5 className="text-center">
-                                Desafio{" "}
-                                <span style={{ color: "var(--gr-code)" }}>
-                                    PicPay Django{" "}
-                                </span>
-                                RestAPI
-                            </h5>
-                            <img
-                                src={DPicPay}
-                                className="img-fluid"
-                                alt="img-project"
-                            />
-                        </div>
-                        <div className="card-body">
-                            <p className="card-text">
-                                Lorem ipsum dolor sit amet.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <h5 className="text-center">I Projeto faculdade</h5>
-                            <img
-                                src={PSchool}
-                                className="img-fluid"
-                                alt="img-project"
-                            />
-                        </div>
-                        <div className="card-body">
-                            <p className="card-text">
-                                Lorem ipsum dolor sit amet.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <h5 className="text-center">Estudos gerais</h5>
-                            <img
-                                src={GProject}
-                                className="img-fluid"
-                                alt="img-project"
-                            />
-                        </div>
-                        <div className="card-body">
-                            <p className="card-text">
-                                Lorem ipsum dolor sit amet.
-                            </p>
-                        </div>
-                    </div>
+                    {listImg.map((img, index) => (
+                        <ColProject
+                            key={index}
+                            img={img}
+                            title={titleList[index]}
+                            text={textList[index]}
+                            linkGit={listLinkGit[index]}
+                        />
+                    ))}
                 </div>
             </section>
         </>

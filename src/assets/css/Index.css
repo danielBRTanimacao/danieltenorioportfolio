@@ -134,6 +134,14 @@ body {
 
 /* PROJECT */
 .card {
-    background-color: var(--bg-light);
+    background-color: var(--bg);
     color: var(--flash-light);
+}
+
+.link-special {
+    color: var(--code-pink);
+}
+
+.link-special:hover {
+    text-decoration: underline var(--code-pink) !important;
 }
