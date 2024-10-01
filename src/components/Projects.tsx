@@ -1,6 +1,12 @@
 import Climar from "../assets/svgs/climar.svg";
 import EbookWorld from "../assets/svgs/ebook-response.svg";
 
+import DPicPay from "../assets/imgs/projects/DESAFIO BACKEND DJANGO.png";
+import GProject from "../assets/imgs/projects/PROJETOS GITHUB.png";
+import PSchool from "../assets/imgs/projects/PROJETOS SCHOOL.png";
+import PUrubu from "../assets/imgs/projects/PROJETO URUBU.png";
+import DRest from "../assets/imgs/projects/DESAFIO REST.png";
+
 export default () => {
     return (
         <>
@@ -90,15 +96,18 @@ export default () => {
                                 RestApi
                             </h5>
                             <img
-                                src="https://fakeimg.pl/470x200/"
+                                src={DRest}
                                 className="img-fluid"
                                 alt="img-project"
                             />
                         </div>
                         <div className="card-body">
                             <p className="card-text">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Aspernatur, ratione!
+                                Desafio para uma empresa utilizando framework
+                                django + django rest. o desafio consiste em uma
+                                API para gerenciar livros e autores, incluindo
+                                autenticação de usuários e funcionalidade de
+                                pesquisa...
                             </p>
                         </div>
                     </div>
@@ -131,14 +140,15 @@ export default () => {
                                 </span>
                             </h5>
                             <img
-                                src="https://fakeimg.pl/470x200/"
+                                src={PUrubu}
                                 className="img-fluid"
                                 alt="img-project"
                             />
                         </div>
                         <div className="card-body">
                             <p className="card-text">
-                                Lorem ipsum dolor sit amet.
+                                projeto urubu do pix feito com o simples html,
+                                css, javascript e para backend php...
                             </p>
                         </div>
                     </div>
@@ -152,7 +162,7 @@ export default () => {
                                 RestAPI
                             </h5>
                             <img
-                                src="https://fakeimg.pl/470x200/"
+                                src={DPicPay}
                                 className="img-fluid"
                                 alt="img-project"
                             />
@@ -167,7 +177,7 @@ export default () => {
                         <div className="card">
                             <h5 className="text-center">I Projeto faculdade</h5>
                             <img
-                                src="https://fakeimg.pl/470x200/"
+                                src={PSchool}
                                 className="img-fluid"
                                 alt="img-project"
                             />
@@ -182,7 +192,7 @@ export default () => {
                         <div className="card">
                             <h5 className="text-center">Estudos gerais</h5>
                             <img
-                                src="https://fakeimg.pl/470x200/"
+                                src={GProject}
                                 className="img-fluid"
                                 alt="img-project"
                             />
