@@ -134,6 +134,6 @@ body {
 
 /* PROJECT */
 .card {
-    background-color: var(--bg-light);
+    background-color: var(--bg);
     color: var(--flash-light);
 }
