@@ -2,6 +2,8 @@ import ColProject from "./ColProject";
 
 import Climar from "../assets/svgs/climar.svg";
 import EbookWorld from "../assets/svgs/ebook-response.svg";
+import PmApp from "../assets/svgs/pmapp.svg";
+import Mucambo from "../assets/svgs/mucambo.svg";
 
 import DPicPay from "../assets/imgs/projects/DESAFIO BACKEND DJANGO.png";
 import GProject from "../assets/imgs/projects/PROJETOS GITHUB.png";
@@ -70,14 +72,26 @@ export default () => {
                 {/* animation left */}
                 <div className="row align-items-center">
                     <div className="col-md-7">
-                        <h1>Climar</h1>
+                        <h1>
+                            Climar eletrica e climatização,{" "}
+                            <span className="text-light-emphasis">
+                                Freelancer
+                            </span>
+                        </h1>
                         <p className="lead">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Repudiandae esse aspernatur aliquid!
-                            Recusandae iusto impedit placeat adipisci velit
-                            pariatur fuga natus minus, reprehenderit accusamus
-                            amet esse nobis veniam quibusdam assumenda.
+                            Este é um e-commerce para uma pequena empresa local
+                            da cidade, focada na venda de materiais relacionados
+                            a elétrica, construção e tecnologia. Ainda não é
+                            possível visualizar uma prévia, mas você pode obter
+                            mais informações clicando em "saiba mais".
                         </p>
+                        <a
+                            href="github.com/danielBRTanimacao"
+                            target="_blank"
+                            className="btn btn-outline-light"
+                        >
+                            Saiba mais
+                        </a>
                     </div>
                     <div className="col-md-5">
                         <img src={Climar} className="img-fluid" alt="img" />
@@ -86,46 +100,106 @@ export default () => {
                 {/* animation right */}
                 <div className="row align-items-center">
                     <div className="col-md-7 order-md-2">
-                        <h1>Mucambo Moto Clube</h1>
+                        <h1>
+                            Mucambo Moto Clube,{" "}
+                            <span className="text-light-emphasis">
+                                Freelancer
+                            </span>
+                        </h1>
                         <p className="lead">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Aperiam iusto tempora facilis laborum eius
-                            voluptas minus ratione dolorem ducimus cumque
-                            corporis libero nisi rem nam facere officia aut,
-                            assumenda provident.
+                            Projeto desenvolvido para um clube de motoqueiros
+                            local uma pagina web desenvolvida com Django +
+                            Boostrap, conheça a história de um grupo de
+                            motoqueiros navegue pela página web para descobrir
+                            mais sobre sua historia e os membros que compõem,
+                            também e possível entrar em contato, basta preencher
+                            o formulário
                         </p>
+                        <a
+                            href="github.com/danielBRTanimacao"
+                            target="_blank"
+                            className="btn btn-outline-light"
+                        >
+                            Saiba mais
+                        </a>
                     </div>
                     <div className="col-md-5 order-md-1">
-                        <img src={Climar} alt="img" className="img-fluid" />
+                        <img src={Mucambo} alt="img" className="img-fluid" />
                     </div>
                 </div>
                 {/* animation left */}
                 <div className="row align-items-center">
                     <div className="col-md-7">
-                        <h1>Percepção Musical</h1>
+                        <h1>
+                            Percepção Musical,{" "}
+                            <span className="text-light-emphasis">
+                                Open Source
+                            </span>
+                        </h1>
                         <p className="lead">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Repudiandae esse aspernatur aliquid!
-                            Recusandae iusto impedit placeat adipisci velit
-                            pariatur fuga natus minus, reprehenderit accusamus
-                            amet esse nobis veniam quibusdam assumenda.
+                            Percepção Musical é um aplicativo em desenvolvimento
+                            utilizando as tecnologias Python, Django RestApi,
+                            HTML, CSS e Typescript.{" "}
+                            <a
+                                href="https://github.com/victorhugorl"
+                                target="_blank"
+                                className="link-special link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                            >
+                                Victor Lima
+                            </a>{" "}
+                            lidera o projeto como principal gerente e
+                            desenvolvedor backend, enquanto eu colaboro
+                            principalmente no desenvolvimento frontend. Para
+                            mais informações, clique em saiba mais.
                         </p>
+                        <a
+                            href="https://github.com/victorhugorl/percepcao_musical_app_web-version"
+                            target="_blank"
+                            className="btn btn-outline-light"
+                        >
+                            Saiba mais
+                        </a>
                     </div>
                     <div className="col-md-5">
-                        <img src={Climar} className="img-fluid" alt="img" />
+                        <img src={PmApp} className="img-fluid" alt="img" />
                     </div>
                 </div>
                 {/* animation right */}
                 <div className="row align-items-center">
                     <div className="col-md-7 order-md-2">
-                        <h1>Ebook World</h1>
+                        <h1>
+                            Ebook World,{" "}
+                            <span className="text-light-emphasis">Estudo</span>
+                        </h1>
                         <p className="lead">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Aperiam iusto tempora facilis laborum eius
-                            voluptas minus ratione dolorem ducimus cumque
-                            corporis libero nisi rem nam facere officia aut,
-                            assumenda provident.
+                            Esse e um projeto inspirado em dois sites{" "}
+                            <a
+                                className="link-special link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                                target="_blank"
+                                href="https://www.skoob.com.br"
+                            >
+                                Skoob
+                            </a>
+                            ,{" "}
+                            <a
+                                className="link-special link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                                target="_blank"
+                                href="https://github.com/victorhugorl/Landin_page_ebook"
+                            >
+                                Landing page
+                            </a>{" "}
+                            em uma versão "simples" apenas estudo usando Django
+                            e python, o site também esta em desenvolvimento, mas
+                            assim como o anterior e possivel ver ele em saiba
+                            mais...
                         </p>
+                        <a
+                            href="https://github.com/danielBRTanimacao/ebook-world-django"
+                            target="_blank"
+                            className="btn btn-outline-light"
+                        >
+                            Saiba mais
+                        </a>
                     </div>
                     <div className="col-md-5 order-md-1">
                         <img src={EbookWorld} alt="img" className="img-fluid" />
