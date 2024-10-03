@@ -132,6 +132,12 @@ body {
     color: var(--code-orange) !important;
 }
 
+.my-image:hover {
+    cursor: pointer;
+    outline: 10px solid var(--flash-light);
+    transition: outline 0.2s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
 /* PROJECT */
 .card {
     background-color: var(--bg);
@@ -144,4 +150,25 @@ body {
 
 .link-special:hover {
     text-decoration: underline var(--code-pink) !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../svgs/toggle/toggle.svg");
+}
+
+.featurette-divider {
+    margin: 5rem 3rem !important;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.showing {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
 }

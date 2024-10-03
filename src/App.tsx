@@ -27,11 +27,13 @@ export default () => {
                         </div>
                     </div>
                     <div className="col-md-5">
-                        <img
-                            src={Me}
-                            className="img-fluid rounded-circle"
-                            alt="my-image"
-                        />
+                        <a href="#about">
+                            <img
+                                src={Me}
+                                className="img-fluid rounded-circle my-image"
+                                alt="my-image"
+                            />
+                        </a>
                     </div>
                 </article>
             </main>
