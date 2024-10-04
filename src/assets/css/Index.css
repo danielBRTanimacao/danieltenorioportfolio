@@ -7,6 +7,7 @@
     --bg-light: #44475a;
     --comment: #6272a4;
     --code-purple: #bd93f9;
+    --code-blue: #8be9fd;
     --code-pink: #ff79c6;
     --code-orange: #ffb86c;
     --gr-code: #50fa7b;
@@ -171,4 +172,26 @@ body {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+
+/* ABOUT ME */
+@keyframes moveGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.transparent-bg {
+    background: linear-gradient(135deg, #50fa7a7b, #8be8fd8a, #ff79c582);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 6px 8px rgba(255, 255, 255, 0.1);
+    background-size: 200% 200%;
+    animation: moveGradient 8s ease infinite;
 }

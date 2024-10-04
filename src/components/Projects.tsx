@@ -239,13 +239,14 @@ export default () => {
                 </div>
             </section>
 
-            <section className="px-4">
+            <section className="px-4 py-5">
                 <h1 className="display-4 py-5">
+                    <span style={{ color: "var(--code-pink)" }}>function </span>
                     <span style={{ color: "var(--gr-code)" }}>
-                        Outros Projetos
+                        outrosProjetos
                     </span>
                     <span style={{ color: "var(--code-pink)" }}>()</span>
-                    <span style={{ color: "var(--code-orange)" }}>{"{}"}</span>
+                    <span style={{ color: "var(--code-orange)" }}>{"{"}</span>
                 </h1>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     {arrayProject.map((item, index) => (
@@ -258,6 +259,9 @@ export default () => {
                         />
                     ))}
                 </div>
+                <h1 className="display-4">
+                    <span style={{ color: "var(--code-orange)" }}>{"}"}</span>
+                </h1>
             </section>
         </>
     );
