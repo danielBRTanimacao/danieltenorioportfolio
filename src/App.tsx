@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Projects from "./components/Projects";
+import AboutMe from "./components/AboutMe";
 
 import Me from "./assets/imgs/me.png";
 
@@ -38,6 +39,7 @@ export default () => {
                 </article>
             </main>
             <Projects />
+            <AboutMe />
         </>
     );
 };
