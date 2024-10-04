@@ -1,6 +1,5 @@
 import Me from "../assets/imgs/me.png";
 
-import Docx from "../assets/download/Daniel-Tenorio-Curriculo.docx";
 import Pdf from "../assets/download/Daniel-Tenorio-Curriculo.pdf";
 
 export default () => {
@@ -47,7 +46,7 @@ export default () => {
                         <div className="mt-auto flex-curriculum">
                             <h3>Curriculos</h3>
                             <a
-                                href={Docx}
+                                href="/Daniel-Tenorio-curriculo.docx"
                                 className="btn btn-primary"
                                 download="curriculo Daniel"
                             >
