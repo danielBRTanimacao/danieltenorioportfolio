@@ -1,5 +1,8 @@
 import Me from "../assets/imgs/me.png";
 
+import Docx from "../assets/download/Daniel-Tenorio-Curriculo.docx";
+import Pdf from "../assets/download/Daniel-Tenorio-Curriculo.pdf";
+
 export default () => {
     return (
         <>
@@ -12,43 +15,51 @@ export default () => {
                     </span>
                     <span>:</span>
                 </h1>
-                <div
-                    className="d-flex rounded"
-                    style={{ outline: "8px solid var(--flash-light)" }}
-                >
+                <div className="d-flex rounded shadow-lg">
                     <img
                         src={Me}
                         alt="img-center"
-                        className="img-fluid rounded-start"
+                        className="img-fluid rounded-start right-image"
                     />
-                    <article className="transparent-bg p-4 rounded-end">
+                    <article className="transparent-bg p-4 rounded-end flex-items">
                         <div>
-                            <aside>
-                                <h2>Agora um pouco sobre mim</h2>
-                                <div>
-                                    <a href="#" className="btn">
-                                        CURRICULO WORD icon
-                                    </a>
-                                    <a href="#" className="btn">
-                                        CURRICULO PDF icon
-                                    </a>
-                                </div>
-                            </aside>
+                            <img
+                                src={Me}
+                                alt="img-center"
+                                className="img-fluid rounded-pill flex-image"
+                            />
+                            <h2>Agora um pouco sobre mim</h2>
+                            <div className="pt-3">
+                                <p className="lead">
+                                    Meu nome é Daniel Tenório. Atualmente, estou
+                                    cursando Análise e Desenvolvimento de
+                                    Sistemas. Possuo dois anos de experiência no
+                                    desenvolvimento e criação de novos
+                                    softwares. Embora ainda esteja no início da
+                                    minha carreira e tenha tido poucas
+                                    experiências com equipes, sou capaz de
+                                    realizar tarefas básicas como CRUD, consumo
+                                    e criação de APIs, além de utilizar bancos
+                                    de dados...
+                                </p>
+                            </div>
                         </div>
-                        <div className="pt-3">
-                            <p className="lead">
-                                Meu nome é Daniel Tenório. Atualmente, estou
-                                cursando Análise e Desenvolvimento de Sistemas.
-                                Possuo dois anos de experiência no
-                                desenvolvimento e criação de novos softwares.
-                            </p>
-                            <p className="lead">
-                                Embora ainda esteja no início da minha carreira
-                                e tenha tido poucas experiências com equipes,
-                                sou capaz de realizar tarefas básicas como CRUD,
-                                consumo e criação de APIs, além de utilizar
-                                bancos de dados...
-                            </p>
+                        <div className="mt-auto flex-curriculum">
+                            <h3>Curriculos</h3>
+                            <a
+                                href={Docx}
+                                className="btn btn-primary"
+                                download="curriculo Daniel"
+                            >
+                                WORD
+                            </a>
+                            <a
+                                href={Pdf}
+                                className="btn btn-danger"
+                                download="curriculo Daniel"
+                            >
+                                PDF
+                            </a>
                         </div>
                     </article>
                 </div>

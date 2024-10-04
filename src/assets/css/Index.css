@@ -191,7 +191,45 @@ body {
     background: linear-gradient(135deg, #50fa7a7b, #8be8fd8a, #ff79c582);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 6px 8px rgba(255, 255, 255, 0.1);
     background-size: 200% 200%;
-    animation: moveGradient 8s ease infinite;
+    animation: moveGradient 6s ease infinite;
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(236, 236, 236, 0.175) !important;
+}
+
+.flex-items,
+.flex-curriculum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-image {
+    display: flex;
+}
+
+.flex-image {
+    display: none;
+}
+
+.flex-curriculum a {
+    margin: 2px;
+    width: 100%;
+}
+
+@media (max-width: 1199.98px) {
+    .flex-items div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-image {
+        display: none;
+    }
+    .flex-image {
+        width: 250px !important;
+        display: flex;
+    }
 }
