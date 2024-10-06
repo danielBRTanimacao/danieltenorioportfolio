@@ -254,3 +254,18 @@ body {
     background-size: 200% 200%;
     animation: moveGradient 4s ease infinite;
 }
+
+/* TECNOLOGIA */
+.center-tecs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.docker:hover,
+.django:hover,
+.python:hover,
+.react:hover {
+    cursor: pointer;
+    box-shadow: 0px 1px 20px 5px #00bcd4;
+    transition: box-shadow 0.6s ease-in-out;
+}
