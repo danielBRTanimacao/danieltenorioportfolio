@@ -43,18 +43,21 @@ export default () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="mt-auto flex-curriculum">
+                        <div
+                            className="mt-auto flex-curriculum"
+                            style={{ width: "50%" }}
+                        >
                             <h3>Curriculos</h3>
                             <a
                                 href="/Daniel-Tenorio-curriculo.docx"
-                                className="btn btn-primary"
+                                className="btn radial-btn-w"
                                 download="curriculo Daniel"
                             >
                                 WORD
                             </a>
                             <a
                                 href={Pdf}
-                                className="btn btn-danger"
+                                className="btn radial-btn-p"
                                 download="curriculo Daniel"
                             >
                                 PDF

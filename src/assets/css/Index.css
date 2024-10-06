@@ -233,3 +233,19 @@ body {
         display: flex;
     }
 }
+
+.radial-btn-w:hover {
+    background: linear-gradient(135deg, #28488e, #60c6dd, #062d7a);
+}
+
+.radial-btn-p:hover {
+    background: linear-gradient(135deg, #961d1d, #d34646, #7b1010);
+}
+
+.radial-btn-w:hover,
+.radial-btn-p:hover {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-size: 200% 200%;
+    animation: moveGradient 4s ease infinite;
+}
