@@ -234,6 +234,11 @@ body {
     }
 }
 
+.radial-btn-w,
+.radial-btn-p {
+    background: white;
+}
+
 .radial-btn-w:hover {
     background: linear-gradient(135deg, #28488e, #60c6dd, #062d7a);
 }
