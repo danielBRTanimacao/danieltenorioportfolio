@@ -261,11 +261,27 @@ body {
     justify-content: space-evenly;
 }
 
+.django:hover {
+    box-shadow: 0px 1px 20px 5px #00d42e;
+}
+
+.docker:hover {
+    box-shadow: 0px 1px 20px 5px #00bcd4;
+}
+
+.python:hover {
+    box-shadow: 0px 1px 20px 5px #d0d400;
+}
+
+.react:hover {
+    box-shadow: 0px 1px 20px 5px #0075d4;
+}
+
 .docker:hover,
 .django:hover,
 .python:hover,
 .react:hover {
     cursor: pointer;
-    box-shadow: 0px 1px 20px 5px #00bcd4;
     transition: box-shadow 0.6s ease-in-out;
+    border-radius: 14px;
 }

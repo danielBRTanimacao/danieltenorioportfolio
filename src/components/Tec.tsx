@@ -1,4 +1,7 @@
 import Docker from "../assets/svgs/icons/docker.svg";
+import Django from "../assets/svgs/icons/django.svg";
+import Python from "../assets/svgs/icons/python.svg";
+import React_ from "../assets/svgs/icons/react.svg";
 
 export default () => {
     return (
@@ -14,19 +17,16 @@ export default () => {
                 </h1>
                 <article className="center-tecs">
                     <div className="docker">
-                        <img src={Docker} alt="docker" />
+                        <img src={Docker} width={100} alt="docker" />
                     </div>
                     <div className="django">
-                        <img src="" alt="django" />
+                        <img src={Django} width={100} alt="django" />
                     </div>
                     <div className="python">
-                        <img src="" alt="python" />
+                        <img src={Python} width={100} alt="python" />
                     </div>
                     <div className="react">
-                        <img
-                            src="https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-4-pack-icons-282599.png?f=webp&w=256"
-                            alt="react"
-                        />
+                        <img src={React_} width={100} alt="react" />
                     </div>
                 </article>
             </section>
