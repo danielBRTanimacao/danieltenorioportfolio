@@ -15,7 +15,7 @@ export default () => {
                     </span>
                     <span>:</span>
                 </h1>
-                <article className="center-tecs">
+                <article className="center-tecs py-5">
                     <div className="docker">
                         <img src={Docker} width={100} alt="docker" />
                     </div>

@@ -262,19 +262,19 @@ body {
 }
 
 .django:hover {
-    box-shadow: 0px 1px 20px 5px #00d42e;
+    box-shadow: 0px 1px 20px 5px #113228;
 }
 
 .docker:hover {
-    box-shadow: 0px 1px 20px 5px #00bcd4;
+    box-shadow: 0px 1px 20px 5px #066da5;
 }
 
 .python:hover {
-    box-shadow: 0px 1px 20px 5px #d0d400;
+    box-shadow: 0px 1px 20px 5px #ffd43b;
 }
 
 .react:hover {
-    box-shadow: 0px 1px 20px 5px #0075d4;
+    box-shadow: 0px 1px 20px 5px #61dafb;
 }
 
 .docker:hover,
