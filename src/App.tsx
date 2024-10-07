@@ -1,6 +1,8 @@
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
+import Tec from "./components/Tec";
+import Footer from "./components/Footer";
 
 import Me from "./assets/imgs/me.png";
 
@@ -40,6 +42,8 @@ export default () => {
             </main>
             <Projects />
             <AboutMe />
+            <Tec />
+            <Footer />
         </>
     );
 };

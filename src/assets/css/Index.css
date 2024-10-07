@@ -234,6 +234,11 @@ body {
     }
 }
 
+.radial-btn-w,
+.radial-btn-p {
+    background: white;
+}
+
 .radial-btn-w:hover {
     background: linear-gradient(135deg, #28488e, #60c6dd, #062d7a);
 }
@@ -248,4 +253,35 @@ body {
     -webkit-backdrop-filter: blur(10px);
     background-size: 200% 200%;
     animation: moveGradient 4s ease infinite;
+}
+
+/* TECNOLOGIA */
+.center-tecs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.django:hover {
+    box-shadow: 0px 1px 20px 5px #113228;
+}
+
+.docker:hover {
+    box-shadow: 0px 1px 20px 5px #066da5;
+}
+
+.python:hover {
+    box-shadow: 0px 1px 20px 5px #ffd43b;
+}
+
+.react:hover {
+    box-shadow: 0px 1px 20px 5px #61dafb;
+}
+
+.docker:hover,
+.django:hover,
+.python:hover,
+.react:hover {
+    cursor: pointer;
+    transition: box-shadow 0.6s ease-in-out;
+    border-radius: 14px;
 }
