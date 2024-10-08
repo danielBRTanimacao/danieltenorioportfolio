@@ -99,9 +99,24 @@ export default () => {
         };
     }, []);
 
+    useEffect(() => {
+        const watching = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                entry.target.classList.toggle("show-top", entry.isIntersecting);
+            });
+        });
+
+        const hiddenElements = document.querySelectorAll(".hidde-top");
+        hiddenElements.forEach((element) => watching.observe(element));
+
+        return () => {
+            hiddenElements.forEach((element) => watching.unobserve(element));
+        };
+    }, []);
+
     return (
         <>
-            <section className="px-4" id="projects">
+            <section className="px-4 py-5" id="projects">
                 <div className="py-5 row align-items-center hidden">
                     <div className="col-md-7">
                         <h1>
@@ -239,7 +254,7 @@ export default () => {
                 </div>
             </section>
 
-            <section className="px-4 py-5">
+            <section className="px-4 py-9 hidde-top">
                 <h1 className="display-4 py-5">
                     <span style={{ color: "var(--code-pink)" }}>function </span>
                     <span style={{ color: "var(--gr-code)" }}>
