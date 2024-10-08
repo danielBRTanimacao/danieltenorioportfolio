@@ -5,7 +5,7 @@ import Pdf from "../assets/download/Daniel-Tenorio-Curriculo.pdf";
 export default () => {
     return (
         <>
-            <section className="px-4 pb-5" id="about">
+            <section className="px-4 py-5 hidde-top" id="about">
                 <h1 className="display-4 py-3">
                     <span style={{ color: "var(--code-pink)" }}>class </span>
                     <span style={{ color: "var(--code-blue)" }}>SobreMim</span>
