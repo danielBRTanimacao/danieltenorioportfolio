@@ -10,6 +10,7 @@ export default () => {
                 <span>
                     <a
                         href="https://github.com/danielBRTanimacao"
+                        className="shadow-a rounded-pill"
                         target="_blank"
                     >
                         <svg
@@ -27,6 +28,7 @@ export default () => {
                 <span className="ps-2">
                     <a
                         href="https://www.linkedin.com/in/daniel-tenório-6471b0244/"
+                        className="shadow-a"
                         target="_blank"
                     >
                         <svg
