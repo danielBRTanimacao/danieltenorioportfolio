@@ -1,7 +1,25 @@
+import { useEffect, useState } from "react";
+
 export default () => {
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setScrolled(window.scrollY > 50);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
     return (
         <>
-            <header className="navbar navbar-expand-lg px-3 pt-3">
+            <header
+                className={`navbar navbar-expand-lg px-3 pt-3 sticky-top ${
+                    scrolled ? "scrolled" : ""
+                }`}
+            >
                 <div className="container-fluid">
                     <a href="/" className="navbar-brand px-3">
                         D
