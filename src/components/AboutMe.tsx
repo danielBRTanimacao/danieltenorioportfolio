@@ -1,3 +1,4 @@
+import Me2 from "../assets/imgs/me2.jpg";
 import Me from "../assets/imgs/me.png";
 
 import Pdf from "../assets/download/Daniel-Tenorio-Curriculo.pdf";
@@ -16,16 +17,16 @@ export default () => {
                 </h1>
                 <div className="d-flex rounded shadow-lg">
                     <img
-                        src={Me}
+                        src={Me2}
                         alt="img-center"
-                        className="img-fluid rounded-start right-image"
+                        className="img-fluid rounded-start right-image me2"
                     />
                     <article className="transparent-bg p-4 rounded-end flex-items">
                         <div>
                             <img
                                 src={Me}
                                 alt="img-center"
-                                className="img-fluid rounded-pill flex-image"
+                                className="img-fluid rounded-pill flex-image me2"
                             />
                             <h2>Agora um pouco sobre mim</h2>
                             <div className="pt-3">
