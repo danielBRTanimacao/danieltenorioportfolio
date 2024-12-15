@@ -133,7 +133,7 @@ export default () => {
                             mais informações clicando em "saiba mais".
                         </p>
                         <a
-                            href="github.com/danielBRTanimacao"
+                            href="https://github.com/danielBRTanimacao"
                             target="_blank"
                             className="btn btn-outline-light"
                         >
@@ -163,7 +163,7 @@ export default () => {
                             o formulário
                         </p>
                         <a
-                            href="github.com/danielBRTanimacao"
+                            href="https://github.com/danielBRTanimacao"
                             target="_blank"
                             className="btn btn-outline-light"
                         >
