@@ -45,6 +45,7 @@ body {
 }
 
 .navbar-brand {
+    display: inline-block;
     font-weight: 700;
     font-style: italic;
     color: var(--flash-light);
@@ -52,39 +53,8 @@ body {
     border-radius: 8px 2px 8px 2px;
 }
 
-@-webkit-keyframes scale-up-hor-left {
-    0% {
-        -webkit-transform: scaleX(0.4);
-        transform: scaleX(0.4);
-        -webkit-transform-origin: 0% 0%;
-        transform-origin: 0% 0%;
-    }
-    100% {
-        -webkit-transform: scaleX(1);
-        transform: scaleX(1);
-        -webkit-transform-origin: 0% 0%;
-        transform-origin: 0% 0%;
-    }
-}
-@keyframes scale-up-hor-left {
-    0% {
-        -webkit-transform: scaleX(0.4);
-        transform: scaleX(0.4);
-        -webkit-transform-origin: 0% 0%;
-        transform-origin: 0% 0%;
-    }
-    100% {
-        -webkit-transform: scaleX(1);
-        transform: scaleX(1);
-        -webkit-transform-origin: 0% 0%;
-        transform-origin: 0% 0%;
-    }
-}
-
 .navbar-brand:hover {
-    -webkit-animation: scale-up-hor-left 0.4s
-        cubic-bezier(0.39, 0.575, 0.565, 1) both;
-    animation: scale-up-hor-left 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    background-color: var(--gr-code);
 }
 
 .nav-item {
@@ -92,17 +62,11 @@ body {
     font-family: var(--font-principal);
 }
 
-.nav-item a {
-    text-decoration: none;
-    color: var(--flash-light) !important;
-}
-
-.nav-item a:hover {
-    color: var(--code-purple) !important;
-    transition: color 0.2s ease-in;
-}
-
 .nav-item span {
+    color: var(--bg-light);
+}
+
+.nav-item span:hover {
     color: var(--gr-code);
 }
 
