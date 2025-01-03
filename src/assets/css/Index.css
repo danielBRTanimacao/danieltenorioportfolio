@@ -52,9 +52,39 @@ body {
     border-radius: 8px 2px 8px 2px;
 }
 
+@-webkit-keyframes scale-up-hor-left {
+    0% {
+        -webkit-transform: scaleX(0.4);
+        transform: scaleX(0.4);
+        -webkit-transform-origin: 0% 0%;
+        transform-origin: 0% 0%;
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-transform-origin: 0% 0%;
+        transform-origin: 0% 0%;
+    }
+}
+@keyframes scale-up-hor-left {
+    0% {
+        -webkit-transform: scaleX(0.4);
+        transform: scaleX(0.4);
+        -webkit-transform-origin: 0% 0%;
+        transform-origin: 0% 0%;
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-transform-origin: 0% 0%;
+        transform-origin: 0% 0%;
+    }
+}
+
 .navbar-brand:hover {
-    background-color: var(--code-purple);
-    transition: background-color 0.3s ease-in-out;
+    -webkit-animation: scale-up-hor-left 0.4s
+        cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: scale-up-hor-left 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 .nav-item {
@@ -75,6 +105,11 @@ body {
 .nav-item span {
     color: var(--gr-code);
 }
+
+.navbar-nav {
+    flex-direction: row;
+}
+
 /* Header */
 header {
     transition: background-color 0.3s ease-in-out;
