@@ -44,9 +44,6 @@ export default () => {
                                     básicas como CRUD, consumo e criação de
                                     APIs, além de utilizar bancos de dados...
                                 </p>
-                                <p className="lead">
-                                    <strong>Hard Skills Soft Skill</strong>
-                                </p>
                             </div>
                         </div>
 
