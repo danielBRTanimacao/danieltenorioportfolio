@@ -8,7 +8,10 @@ export default () => {
                     </a>
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <a href="#header">
+                            <a
+                                href="https://www.linkedin.com/in/daniel-tenório-6471b0244/"
+                                target="_blank"
+                            >
                                 <span>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +27,10 @@ export default () => {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="#projects">
+                            <a
+                                href="https://github.com/danielBRTanimacao"
+                                target="_blank"
+                            >
                                 <span>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"

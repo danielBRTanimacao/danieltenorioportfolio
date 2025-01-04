@@ -35,23 +35,21 @@ export default () => {
                                     cursando Análise e Desenvolvimento de
                                     Sistemas. Possuo dois anos de experiência no
                                     desenvolvimento e criação de novos
-                                    softwares. Embora ainda esteja no início da
-                                    minha carreira e tenha tido poucas
-                                    experiências com equipes, sou capaz de
-                                    realizar tarefas básicas como CRUD, consumo
-                                    e criação de APIs, além de utilizar bancos
-                                    de dados...
+                                    softwares.
+                                </p>
+                                <p className="lead">
+                                    Embora ainda esteja no início da minha
+                                    carreira e tenha tido poucas experiências
+                                    com equipes, sou capaz de realizar tarefas
+                                    básicas como CRUD, consumo e criação de
+                                    APIs, além de utilizar bancos de dados...
+                                </p>
+                                <p className="lead">
+                                    <strong>Hard Skills Soft Skill</strong>
                                 </p>
                             </div>
                         </div>
-                        <div className="d-flex gap-2">
-                            <div className="bg-light text-dark rounded p-2">
-                                <h4>hard skills</h4>
-                            </div>
-                            <div className="bg-light text-dark rounded p-2">
-                                <h4>soft skills</h4>
-                            </div>
-                        </div>
+
                         <div
                             className="mt-auto flex-curriculum"
                             style={{ width: "50%" }}
