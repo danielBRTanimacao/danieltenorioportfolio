@@ -44,6 +44,14 @@ export default () => {
                                 </p>
                             </div>
                         </div>
+                        <div className="d-flex gap-2">
+                            <div className="bg-primary p-2">
+                                <h3>hard skills</h3>
+                            </div>
+                            <div className="bg-primary p-2">
+                                <h3>soft skills</h3>
+                            </div>
+                        </div>
                         <div
                             className="mt-auto flex-curriculum"
                             style={{ width: "50%" }}
