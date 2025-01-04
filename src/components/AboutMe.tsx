@@ -45,11 +45,11 @@ export default () => {
                             </div>
                         </div>
                         <div className="d-flex gap-2">
-                            <div className="bg-primary p-2">
-                                <h3>hard skills</h3>
+                            <div className="bg-light text-dark rounded p-2">
+                                <h4>hard skills</h4>
                             </div>
-                            <div className="bg-primary p-2">
-                                <h3>soft skills</h3>
+                            <div className="bg-light text-dark rounded p-2">
+                                <h4>soft skills</h4>
                             </div>
                         </div>
                         <div
