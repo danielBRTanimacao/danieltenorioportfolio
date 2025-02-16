@@ -116,11 +116,11 @@ export default () => {
 
     return (
         <>
-            <section className="px-4 py-5" id="projects">
+            <section className="container py-5 my-5" id="projects">
                 <div className="py-5 row align-items-center hidden">
                     <div className="col-md-7">
                         <h1>
-                            Climar eletrica e climatização,{" "}
+                            Climar eletrica{" "}
                             <span className="text-light-emphasis">
                                 Freelancer
                             </span>
@@ -148,7 +148,7 @@ export default () => {
                 <div className="row align-items-center hidden">
                     <div className="col-md-7 order-md-2">
                         <h1>
-                            Mucambo Moto Clube,{" "}
+                            Mucambo Moto Clube{" "}
                             <span className="text-light-emphasis">
                                 Freelancer
                             </span>
@@ -178,7 +178,7 @@ export default () => {
                 <div className="row align-items-center hidden">
                     <div className="col-md-7">
                         <h1>
-                            Percepção Musical,{" "}
+                            Percepção Musical{" "}
                             <span className="text-light-emphasis">
                                 Open Source
                             </span>
@@ -215,7 +215,7 @@ export default () => {
                 <div className="row align-items-center hidden">
                     <div className="col-md-7 order-md-2">
                         <h1>
-                            Ebook World,{" "}
+                            Ebook World{" "}
                             <span className="text-light-emphasis">Estudo</span>
                         </h1>
                         <p className="lead">
@@ -254,14 +254,12 @@ export default () => {
                 </div>
             </section>
 
-            <section className="px-4 py-9 hidde-top">
-                <h1 className="display-4 py-5">
-                    <span style={{ color: "var(--code-pink)" }}>function </span>
-                    <span style={{ color: "var(--gr-code)" }}>
-                        outrosProjetos
-                    </span>
-                    <span style={{ color: "var(--code-pink)" }}>()</span>
-                    <span style={{ color: "var(--code-orange)" }}>{"{"}</span>
+            <section className="container py-5 my-5 hidde-top">
+                <h1
+                    className="display-3 center-txt pb-2 pt-5 mt-5 fw-bold"
+                    style={{ color: "var(--gr-code-light)" }}
+                >
+                    outrosProjetos
                 </h1>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     {arrayProject.map((item, index) => (
@@ -274,9 +272,6 @@ export default () => {
                         />
                     ))}
                 </div>
-                <h1 className="display-4">
-                    <span style={{ color: "var(--code-orange)" }}>{"}"}</span>
-                </h1>
             </section>
         </>
     );

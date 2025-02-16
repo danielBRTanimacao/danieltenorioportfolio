@@ -6,29 +6,27 @@ import Pdf from "../assets/download/Daniel-Tenorio-Curriculo.pdf";
 export default () => {
     return (
         <>
-            <section className="px-4 py-5 hidde-top" id="about">
-                <h1 className="display-4 py-3">
-                    <span style={{ color: "var(--code-pink)" }}>class </span>
-                    <span style={{ color: "var(--code-blue)" }}>SobreMim</span>
-                    <span style={{ color: "var(--code-orange)" }}>
-                        (<span style={{ color: "var(--code-blue)" }}>Me</span>)
-                    </span>
-                    <span>:</span>
+            <section className="py-5 my-5 hidde-top" id="about">
+                <h1
+                    className="display-1 fw-bold center-txt py-3"
+                    style={{ color: "var(--code-blue-light)" }}
+                >
+                    SobreMim
                 </h1>
-                <div className="d-flex rounded shadow-lg">
+                <div>
                     <img
                         src={Me2}
                         alt="img-center"
                         className="img-fluid rounded-start right-image me2"
                     />
-                    <article className="transparent-bg p-4 rounded-end flex-items">
+                    <article className="transparent-bg p-4 flex-items">
                         <div>
                             <img
                                 src={Me}
                                 alt="img-center"
                                 className="img-fluid rounded-pill flex-image me2"
                             />
-                            <h2>Agora um pouco sobre mim</h2>
+                            <h2 className="display-2 fw-bold">Quem sou eu?</h2>
                             <div className="pt-3">
                                 <p className="lead">
                                     Meu nome é Daniel Tenório. Atualmente, estou
@@ -49,7 +47,7 @@ export default () => {
 
                         <div
                             className="mt-auto flex-curriculum"
-                            style={{ width: "50%" }}
+                            style={{ width: "100%" }}
                         >
                             <h3>Curriculos</h3>
                             <a

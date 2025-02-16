@@ -8,9 +8,11 @@
     --comment: #6272a4;
     --code-purple: #bd93f9;
     --code-blue: #8be9fd;
+    --code-blue-light: #8be8fda3;
     --code-pink: #ff79c6;
     --code-orange: #ffb86c;
     --gr-code: #50fa7b;
+    --gr-code-light: #50fa7a9c;
     --flash-light: #f8f8f2;
 }
 
@@ -129,12 +131,15 @@ header {
 }
 
 .display-1,
+.display-2,
+.display-3,
 .display-4 {
     font-family: var(--font-principal);
 }
 
 .span-primary {
     color: var(--code-pink) !important;
+    font-size: 0.8em;
 }
 
 .span-secondary {
@@ -143,6 +148,11 @@ header {
 
 .span-third {
     color: var(--code-orange) !important;
+    font-size: 1.4em;
+}
+
+.my-image {
+    width: 15em;
 }
 
 .my-image:hover {
@@ -212,6 +222,10 @@ header {
 }
 .icon:nth-child(5) {
     transition-delay: 800ms;
+}
+
+.center-txt {
+    text-align: center;
 }
 
 /* ABOUT ME */
