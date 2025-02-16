@@ -9,7 +9,7 @@ export default () => {
     return (
         <>
             <Header />
-            <main className="pt-5 container" id="header">
+            <main className="pt-5 container main" id="header">
                 <article className="row">
                     <div className="col-md-7 d-flex align-items-center">
                         <div>

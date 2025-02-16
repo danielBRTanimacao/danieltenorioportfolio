@@ -37,10 +37,6 @@ body {
     color: var(--flash-light);
 }
 
-.py-9 {
-    padding: 9rem 0;
-}
-
 /* HEADER NAV */
 .navbar-collapse {
     padding: 10px 0;
@@ -89,13 +85,6 @@ header {
 /* INDEX */
 .font-principal {
     font-family: var(--font-principal);
-}
-
-.main {
-    height: 100dvh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 @keyframes move-up-down {
@@ -344,6 +333,10 @@ header {
     border-radius: 14px;
 }
 
+.shadow-a:hover {
+    box-shadow: 1px 1px 19px 4px white;
+}
+
 @media (max-width: 575.98px) {
     .center-tecs {
         flex-direction: column;
@@ -352,6 +345,65 @@ header {
     }
 }
 
-.shadow-a:hover {
-    box-shadow: 1px 1px 19px 4px white;
+@media (min-width: 425px) {
+    .span-primary {
+        font-size: 0.98em;
+    }
+    .span-secondary {
+        font-size: 1.2em;
+    }
+    .my-image {
+        width: 18em;
+    }
+}
+
+@media (min-width: 768px) {
+    .span-primary {
+        font-size: 0.74em;
+    }
+    .span-secondary {
+        font-size: 0.94em;
+    }
+    .main {
+        height: 100dvh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .flex-curriculum {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .span-primary {
+        font-size: 0.86em;
+    }
+    .span-secondary {
+        font-size: 1.08em;
+    }
+    .main {
+        height: 100dvh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .my-image {
+        width: 23em;
+    }
+    .flex-curriculum {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .span-primary {
+        font-size: 1em;
+    }
+    .span-secondary {
+        font-size: 1.3em;
+    }
+    .flex-curriculum {
+        width: 50%;
+    }
 }

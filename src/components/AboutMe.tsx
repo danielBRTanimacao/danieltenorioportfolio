@@ -13,11 +13,11 @@ export default () => {
                 >
                     SobreMim
                 </h1>
-                <div>
+                <div className="d-flex">
                     <img
                         src={Me2}
                         alt="img-center"
-                        className="img-fluid rounded-start right-image me2"
+                        className="img-fluid right-image me2"
                     />
                     <article className="transparent-bg p-4 flex-items">
                         <div>
@@ -45,10 +45,7 @@ export default () => {
                             </div>
                         </div>
 
-                        <div
-                            className="mt-auto flex-curriculum"
-                            style={{ width: "100%" }}
-                        >
+                        <div className="mt-auto flex-curriculum">
                             <h3>Curriculos</h3>
                             <a
                                 href="/Daniel-Tenorio-curriculo.docx"
