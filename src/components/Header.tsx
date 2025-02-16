@@ -1,8 +1,8 @@
 export default () => {
     return (
         <>
-            <header className="container navbar pt-3 sticky-top scrolled">
-                <div className="container-fluid">
+            <header className="navbar pt-3 sticky-top scrolled">
+                <div className="container container-fluid">
                     <a href="/" className="navbar-brand px-3">
                         D
                     </a>

@@ -370,9 +370,6 @@ header {
         align-items: center;
         justify-content: center;
     }
-    .flex-curriculum {
-        width: 100%;
-    }
 }
 
 @media (min-width: 1024px) {
@@ -391,9 +388,6 @@ header {
     .my-image {
         width: 23em;
     }
-    .flex-curriculum {
-        width: 70%;
-    }
 }
 
 @media (min-width: 1200px) {
@@ -402,8 +396,5 @@ header {
     }
     .span-secondary {
         font-size: 1.3em;
-    }
-    .flex-curriculum {
-        width: 50%;
     }
 }
