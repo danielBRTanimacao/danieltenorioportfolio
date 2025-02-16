@@ -6,29 +6,29 @@ import EbookWorld from "../assets/svgs/ebook-response.svg";
 import PmApp from "../assets/svgs/pmapp.svg";
 import Mucambo from "../assets/svgs/mucambo.svg";
 
+import ENCURTA from "../assets/imgs/projects/ENCURTADORLINK.png";
 import DPicPay from "../assets/imgs/projects/DESAFIO BACKEND DJANGO.png";
 import GProject from "../assets/imgs/projects/PROJETOS GITHUB.png";
 import PSchool from "../assets/imgs/projects/PROJETOS SCHOOL.png";
 import PUrubu from "../assets/imgs/projects/PROJETO URUBU.png";
-import DRest from "../assets/imgs/projects/DESAFIO REST.png";
 import QrProject from "../assets/imgs/projects/QR CODE PROJECT.png";
 
 export default () => {
     const arrayProject = [
         {
-            img: DRest,
+            img: ENCURTA,
             title: (
                 <>
-                    Desafio{" "}
-                    <span style={{ color: "var(--gr-code)" }}>Django</span>{" "}
-                    RestApi
+                    Encurtador de links
+                    <span style={{ color: "var(--code-orange)" }}>
+                        {" "}
+                        Java
+                    </span>{" "}
                 </>
             ),
             text: `
-            Desafio para uma empresa utilizando framework django + django rest. 
-            o desafio consiste em uma API para gerenciar livros e autores, incluindo autenticação de 
-            usuários e funcionalidade de pesquisa...`,
-            link: "https://github.com/danielBRTanimacao/desafio-spotter-django-rest"
+            Projeto simples armazena e encurtar diversos tipos de links como urls de produtos da amazon, aliexpress, shopee e entre outros tipos permitindo serem compartilhado em redes sociais...`,
+            link: "https://github.com/danielBRTanimacao/encurtador-de-link"
         },
         {
             img: QrProject,
