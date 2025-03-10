@@ -6,7 +6,7 @@ import Pdf from "../assets/download/Daniel-Tenorio-Curriculo.pdf";
 export default () => {
     return (
         <>
-            <section className="py-5 my-5 hidde-top" id="about">
+            <section className="py-5 my-5 hidde-top container" id="about">
                 <h1
                     className="display-1 fw-bold center-txt py-3"
                     style={{ color: "var(--code-blue-light)" }}
@@ -17,9 +17,9 @@ export default () => {
                     <img
                         src={Me2}
                         alt="img-center"
-                        className="img-fluid right-image me2"
+                        className="img-fluid right-image me2 rounded"
                     />
-                    <article className="transparent-bg p-4 flex-items">
+                    <article className="p-4 flex-items">
                         <div>
                             <img
                                 src={Me}
