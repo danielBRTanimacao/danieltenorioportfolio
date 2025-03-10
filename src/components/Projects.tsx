@@ -6,12 +6,12 @@ import EbookWorld from "../assets/svgs/ebook-response.svg";
 import PmApp from "../assets/svgs/pmapp.svg";
 import Mucambo from "../assets/svgs/mucambo.svg";
 
-import ENCURTA from "../assets/imgs/projects/ENCURTADORLINK.png";
-import DPicPay from "../assets/imgs/projects/DESAFIO BACKEND DJANGO.png";
-import GProject from "../assets/imgs/projects/PROJETOS GITHUB.png";
-import PSchool from "../assets/imgs/projects/PROJETOS SCHOOL.png";
-import PUrubu from "../assets/imgs/projects/PROJETO URUBU.png";
-import QrProject from "../assets/imgs/projects/QR CODE PROJECT.png";
+import ENCURTA from "../assets/imgs/projects/ENCURTADORLINK.webp";
+import DPicPay from "../assets/imgs/projects/DESAFIO-BACKEND-DJANGO.webp";
+import GProject from "../assets/imgs/projects/PROJETOS-GITHUB.webp";
+import PSchool from "../assets/imgs/projects/PROJETOS-SCHOOL.webp";
+import PUrubu from "../assets/imgs/projects/PROJETO-URUBU.webp";
+import QrProject from "../assets/imgs/projects/QR-CODE-PROJECT.webp";
 
 export default () => {
     const arrayProject = [
@@ -28,7 +28,7 @@ export default () => {
             ),
             text: `
             Projeto simples armazena e encurtar diversos tipos de links como urls de produtos da amazon, aliexpress, shopee e entre outros tipos permitindo serem compartilhado em redes sociais...`,
-            link: "https://github.com/danielBRTanimacao/encurtador-de-link"
+            link: "https://github.com/danielBRTanimacao/encurtador-de-link",
         },
         {
             img: QrProject,
@@ -42,7 +42,7 @@ export default () => {
                 </>
             ),
             text: "Gerenciamento de ar condicionados de uma empresa local, o site gera um QrCode para os ar-condicionado dos clientes onde é possível escanear ver informações sobre aquele ar especifico pode ser escaneado por qualquer pessoa, mas só e possível ser editado por gerentes específicos feito com django + boostrap",
-            link: "https://github.com/danielBRTanimacao/qr-code-maker-python"
+            link: "https://github.com/danielBRTanimacao/qr-code-maker-python",
         },
         {
             img: PUrubu,
@@ -53,7 +53,7 @@ export default () => {
                 </>
             ),
             text: "Projeto urubu do pix feito com o simples html, css, javascript e para backend php...",
-            link: "https://github.com/danielBRTanimacao/urubu-do-pix-php"
+            link: "https://github.com/danielBRTanimacao/urubu-do-pix-php",
         },
         {
             img: DPicPay,
@@ -68,20 +68,20 @@ export default () => {
             ),
 
             text: "PICPAY SIMPLIFICADO com Python e Django Desafio",
-            link: "https://github.com/danielBRTanimacao/desafio-picpay-django"
+            link: "https://github.com/danielBRTanimacao/desafio-picpay-django",
         },
         {
             img: PSchool,
             title: <>I Projeto faculdade</>,
             text: "O projeto de extensão tem como principal objetivo melhorar a comunidade em que vivemos... Isso significa que, ao desenvolver um projeto de extensão, estamos direcionando nossas habilidades em Análise e Desenvolvimento de Sistemas para criar soluções que beneficiem as pessoas ao nosso redor...um exemplo prático",
-            link: "https://github.com/danielBRTanimacao/I-projeto-extensao-faculdade"
+            link: "https://github.com/danielBRTanimacao/I-projeto-extensao-faculdade",
         },
         {
             img: GProject,
             title: <>Estudos gerais</>,
             text: "Estudos gerais repositorio GitHub",
-            link: "https://github.com/danielBRTanimacao?tab=repositories"
-        }
+            link: "https://github.com/danielBRTanimacao?tab=repositories",
+        },
     ];
 
     useEffect(() => {
