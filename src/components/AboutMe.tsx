@@ -6,7 +6,10 @@ import Pdf from "../assets/download/Daniel-Tenorio-Curriculo.pdf";
 export default () => {
     return (
         <>
-            <section className="py-5 my-5 hidde-top container" id="about">
+            <section
+                className="py-5 my-5 hidde-top container user-select-none"
+                id="about"
+            >
                 <h1
                     className="display-1 fw-bold center-txt py-3"
                     style={{ color: "var(--code-blue-light)" }}
@@ -45,18 +48,8 @@ export default () => {
                             </div>
                         </div>
 
-                        <div
-                            className="mt-auto flex-curriculum"
-                            style={{ width: "100%" }}
-                        >
-                            <h3>Curriculos</h3>
-                            <a
-                                href="/Daniel-Tenorio-curriculo.docx"
-                                className="btn radial-btn-w"
-                                download="curriculo Daniel"
-                            >
-                                WORD
-                            </a>
+                        <div className="mt-auto" style={{ width: "100%" }}>
+                            <h3>Contato</h3>
                             <a
                                 href={Pdf}
                                 className="btn radial-btn-p"

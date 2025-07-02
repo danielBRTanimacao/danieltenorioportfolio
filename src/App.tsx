@@ -9,15 +9,18 @@ export default () => {
     return (
         <>
             <Header />
-            <main className="py-5 my-5 container main" id="header">
+            <main
+                className="py-5 my-5 container main user-select-none"
+                id="header"
+            >
                 <article className="row">
                     <div className="col-md-7 d-flex align-items-center">
                         <div>
-                            <span className="text-hi font-principal user-select-none">
+                            <span className="text-hi font-principal ">
                                 Olá, sou...
                                 <div className="popover-arrow"></div>
                             </span>
-                            <h1 className="display-2 user-select-none">
+                            <h1 className="display-2 ">
                                 <span className="span-primary">
                                     Daniel Tenório✨{" "}
                                 </span>

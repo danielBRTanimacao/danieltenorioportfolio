@@ -246,8 +246,7 @@ header {
     box-shadow: 0 1rem 3rem rgba(236, 236, 236, 0.175) !important;
 }
 
-.flex-items,
-.flex-curriculum {
+.flex-items {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -263,11 +262,6 @@ header {
 
 .flex-image.me2 {
     display: none;
-}
-
-.flex-curriculum a {
-    margin: 2px;
-    width: 100%;
 }
 
 @media (max-width: 1199.98px) {
