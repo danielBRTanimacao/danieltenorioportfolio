@@ -2,9 +2,9 @@ import { useEffect } from "react";
 import ColProject from "./ColProject";
 
 import Climar from "../assets/svgs/climar.svg";
-import EbookWorld from "../assets/svgs/ebook-response.svg";
-import PmApp from "../assets/svgs/pmapp.svg";
 import Mucambo from "../assets/svgs/mucambo.svg";
+import CollabHub from "../assets/svgs/collab-response.svg";
+import PotatoPix from "../assets/svgs/potato-response.svg";
 
 import ENCURTA from "../assets/imgs/projects/ENCURTADORLINK.webp";
 import DPicPay from "../assets/imgs/projects/DESAFIO-BACKEND-DJANGO.webp";
@@ -178,29 +178,22 @@ export default () => {
                 <div className="row align-items-center hidden">
                     <div className="col-md-7">
                         <h1>
-                            Percepção Musical{" "}
+                            CollabHubBR{" "}
                             <span className="text-light-emphasis">
                                 Open Source
                             </span>
                         </h1>
                         <p className="lead">
-                            Percepção Musical é um aplicativo em desenvolvimento
-                            utilizando as tecnologias Python, Django RestApi,
-                            HTML, CSS e Typescript.{" "}
-                            <a
-                                href="https://github.com/victorhugorl"
-                                target="_blank"
-                                className="link-special link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                            >
-                                Victor Lima
-                            </a>{" "}
-                            lidera o projeto como principal gerente e
-                            desenvolvedor backend, enquanto eu colaboro
-                            principalmente no desenvolvimento frontend. Para
-                            mais informações, clique em saiba mais.
+                            Com a crescente de projetos Open Source com alto
+                            engajamento e participação da comunidade vem a
+                            necessidade de coordenar os esforços mantendo ainda
+                            o engajamento em comunidade. Pensando nisso, criamos
+                            o CollabHubBR, uma plataforma Open Source 100%
+                            brasileira para coordenação e organização de
+                            projetos de código-aberto.
                         </p>
                         <a
-                            href="https://github.com/victorhugorl/percepcao_musical_app_web-version"
+                            href="https://github.com/CollabHubBR"
                             target="_blank"
                             className="btn btn-outline-light"
                         >
@@ -208,40 +201,30 @@ export default () => {
                         </a>
                     </div>
                     <div className="col-md-5 d-flex justify-content-center">
-                        <img src={PmApp} className="img-fluid" alt="img" />
+                        <img src={CollabHub} className="img-fluid" alt="img" />
                     </div>
                 </div>
                 <hr className="featurette-divider" />
                 <div className="row align-items-center hidden">
                     <div className="col-md-7 order-md-2">
                         <h1>
-                            Ebook World{" "}
-                            <span className="text-light-emphasis">Estudo</span>
+                            PotatoPix{" "}
+                            <span className="text-light-emphasis">
+                                Personal
+                            </span>
                         </h1>
                         <p className="lead">
-                            Esse e um projeto inspirado em dois sites{" "}
-                            <a
-                                className="link-special link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                                target="_blank"
-                                href="https://www.skoob.com.br"
-                            >
-                                Skoob
-                            </a>
-                            ,{" "}
-                            <a
-                                className="link-special link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                                target="_blank"
-                                href="https://github.com/victorhugorl/Landin_page_ebook"
-                            >
-                                Landing page
-                            </a>{" "}
-                            em uma versão "simples" apenas estudo usando Django
-                            e python, o site também esta em desenvolvimento, mas
-                            assim como o anterior e possivel ver ele em saiba
-                            mais...
+                            Permite que seus espectadores enviem doações durante
+                            as transmissões ao vivo. Com suporte para Pix,
+                            cartão de crédito (via Stripe) e várias moedas
+                            digitais, os seguidores podem enviar mensagens
+                            personalizadas, que são transformadas em áudio e
+                            lidas em tempo real. Tudo isso é possível graças à
+                            tecnologia do Eleven Labs e uma infraestrutura
+                            robusta desenvolvida em Java.
                         </p>
                         <a
-                            href="https://github.com/danielBRTanimacao/ebook-world-django"
+                            href="https://github.com/danielBRTanimacao/BirthdayManager"
                             target="_blank"
                             className="btn btn-outline-light"
                         >
@@ -249,7 +232,7 @@ export default () => {
                         </a>
                     </div>
                     <div className="col-md-5 order-md-1 d-flex justify-content-center">
-                        <img src={EbookWorld} alt="img" className="img-fluid" />
+                        <img src={PotatoPix} alt="img" className="img-fluid" />
                     </div>
                 </div>
             </section>

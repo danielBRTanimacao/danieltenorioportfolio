@@ -264,6 +264,23 @@ header {
     display: none;
 }
 
+.hability-style ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hability-style div {
+    width: 25%;
+    padding: 1em;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+}
+
+.secondary-image {
+    width: 75%;
+}
+
 @media (max-width: 1199.98px) {
     .flex-items div {
         display: flex;
