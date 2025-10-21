@@ -264,6 +264,10 @@ header {
     display: none;
 }
 
+.hability-style {
+    flex-direction: column !important;
+}
+
 .hability-style ul {
     margin: 0;
     padding: 0;
@@ -271,7 +275,7 @@ header {
 }
 
 .hability-style div {
-    width: 25%;
+    width: 100%;
     padding: 1em;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 6px;
@@ -367,6 +371,9 @@ header {
     }
     .my-image {
         width: 23em;
+    }
+    .hability-style {
+        flex-direction: row !important;
     }
 }
 
