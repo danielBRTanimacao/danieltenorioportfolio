@@ -1,5 +1,5 @@
 import Me2 from "../assets/imgs/me2.webp";
-import Me from "../assets/imgs/me.png";
+import Me from "../assets/imgs/me.webp";
 
 import Pdf from "../assets/download/Daniel-Tenorio-Curriculo.pdf";
 

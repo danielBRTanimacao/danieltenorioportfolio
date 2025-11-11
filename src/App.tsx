@@ -3,7 +3,7 @@ import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
 
-import Me from "./assets/imgs/me.png";
+import Me from "./assets/imgs/me.webp";
 
 export default () => {
     return (
