@@ -1,9 +1,9 @@
 import Header from "./components/Header";
 import Projects from "./components/Projects";
-import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
 
 import Me from "./assets/imgs/me.webp";
+import About from "./components/AboutMe";
 
 export default () => {
     return (
@@ -45,7 +45,7 @@ export default () => {
                 </article>
             </main>
             <Projects />
-            <AboutMe />
+            <About />
             <Footer />
         </>
     );
