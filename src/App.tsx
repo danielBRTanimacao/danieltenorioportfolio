@@ -3,7 +3,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
 import Me from "./assets/imgs/me.webp";
-import About from "./components/AboutMe";
+import AboutMe from "./components/AboutMe";
 
 export default () => {
     return (
@@ -45,7 +45,7 @@ export default () => {
                 </article>
             </main>
             <Projects />
-            <About />
+            <AboutMe />
             <Footer />
         </>
     );

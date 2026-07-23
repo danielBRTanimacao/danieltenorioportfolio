@@ -1,8 +1,8 @@
 import Me2 from "../assets/imgs/me2.webp";
 import Me from "../assets/imgs/me.webp";
-import Pdf from "../assets/download/Daniel-Tenorio-Curriculo.pdf";
+import Pdf from "../assets/download/Curriculo_Daniel_Tenorio.pdf";
 
-export default function About() {
+export default function AboutMe() {
     return (
         <section
             className="py-5 my-5 hidde-top container user-select-none"
