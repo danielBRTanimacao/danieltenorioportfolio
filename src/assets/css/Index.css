@@ -385,3 +385,25 @@ header {
         font-size: 1.3em;
     }
 }
+
+.hability-style div {
+    background-color: var(--bg);
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.hability-style div:hover {
+    transform: translateY(-4px);
+    border-color: var(--code-purple) !important;
+}
+
+.hability-style li {
+    font-size: 0.9em;
+    color: var(--flash-light);
+    margin-bottom: 4px;
+}
+
+.hability-style li::before {
+    font-size: 0.8em;
+}
