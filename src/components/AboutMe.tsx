@@ -71,7 +71,7 @@ export default function AboutMe() {
                             </h4>
 
                             <div className="d-flex gap-3 hability-style">
-                                <div>
+                                <div className="cursor-pointer">
                                     <h5 style={{ color: "var(--code-purple)" }}>
                                         Back-end & Arq.
                                     </h5>
@@ -83,7 +83,7 @@ export default function AboutMe() {
                                     </ul>
                                 </div>
 
-                                <div>
+                                <div className="cursor-pointer">
                                     <h5 style={{ color: "var(--code-blue)" }}>
                                         Front-end
                                     </h5>
@@ -95,7 +95,7 @@ export default function AboutMe() {
                                     </ul>
                                 </div>
 
-                                <div>
+                                <div className="cursor-pointer">
                                     <h5 style={{ color: "var(--code-orange)" }}>
                                         Bancos de Dados
                                     </h5>
@@ -106,7 +106,7 @@ export default function AboutMe() {
                                     </ul>
                                 </div>
 
-                                <div>
+                                <div className="cursor-pointer">
                                     <h5 style={{ color: "var(--gr-code)" }}>
                                         DevOps & Cloud
                                     </h5>

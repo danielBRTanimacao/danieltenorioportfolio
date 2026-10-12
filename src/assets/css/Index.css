@@ -144,6 +144,10 @@ header {
     width: 15em;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 .my-image:hover {
     cursor: pointer;
     outline: 10px solid var(--flash-light);
